@@ -55,10 +55,61 @@
     margin-right: 2rem;
 }
 
-skillBarText>p {
-    font-size: 1rem;
-    font-weight: 200;
+.skillBarText>h2 {
+    font-size: 1.5rem;
+    font-weight: 180;
 
+}
+
+.skillBarText a {
+    text-align: center;
+    color: #00f;
+    text-decoration: none;
+}
+
+.skillBarText a:hover {
+    text-decoration: underline;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.resumeButton {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 0.3rem;
+}
+
+.resumeButton a {
+    color: white;
+    text-decoration: none;
+}
+
+.resumeButton a:hover {
+    text-decoration: underline;
+}
+
+.labels {
+    text-align: right;
+    margin-right: 20px;
+    font-size: 1rem;
+    font-weight: 50;
+}
+
+.answers {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 50;
 }
 
 @media screen and (max-width:480px) {

@@ -19,14 +19,19 @@ const Works = () => {
                 and create a strong online presence.
             </span>
             <div className="worksImgs">
+                <p >Online Book Store Project </p>
                 <img src={Project1} alt="" className="worksImg" />
+
+                <p >Emotion detection Website</p>
                 <img src={Project2} alt="" className="worksImg" />
+
+                <p >Managing classroom using IOT</p>
                 <img src={Project3} alt="" className="worksImg" />
+
+                <p >Lab management System</p>
                 <img src={Project4} alt="" className="worksImg" />
             </div>
-            <button className="workBtn">
-                See More
-            </button>
+
 
         </section>
     );
