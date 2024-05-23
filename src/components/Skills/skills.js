@@ -10,9 +10,9 @@ const skills = () => {
                 About Me
             </span>
             <span className="skillDesc">
-                Working as ReactJs Developer at Perficient having experience of 3 years. Responsible for developing and maintaining ReactJs application.
+                Working as ReactJs Developer with 3 years of experience. Responsible for developing and maintaining ReactJs application.
                 Extensive experience in developing web pages using HTML,CSS,JavaScript,ReactJs. Having bit experience in MERN stack development.
-                Similarly, have experience in handling state management library like Redux. Experience in Version Control tools like GIT.
+                Similarly, have experience in working in Java ,Python. Experience in Version Control tools like GIT.
 
             </span>
 
