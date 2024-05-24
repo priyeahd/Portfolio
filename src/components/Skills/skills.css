@@ -76,29 +76,6 @@
     flex-direction: row;
 }
 
-.resumeButton {
-    background-color: #007bff;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1rem;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 0.3rem;
-}
-
-.resumeButton a {
-    color: white;
-    text-decoration: none;
-}
-
-.resumeButton a:hover {
-    text-decoration: underline;
-}
-
 .labels {
     text-align: right;
     margin-right: 20px;
@@ -110,6 +87,29 @@
     text-align: left;
     font-size: 1rem;
     font-weight: 50;
+}
+
+.resumeButton {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 16px 2px;
+    cursor: pointer;
+    border-radius: 0.3rem;
+}
+
+.resumeButton a {
+    color: white;
+    text-decoration: none;
+}
+
+.resumeButton a:hover {
+    text-decoration: underline;
 }
 
 @media screen and (max-width:480px) {

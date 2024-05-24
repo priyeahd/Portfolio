@@ -10,9 +10,30 @@ const skills = () => {
                 About Me
             </span>
             <span className="skillDesc">
-                Working as ReactJs Developer with 3 years of experience. Responsible for developing and maintaining ReactJs application.
-                Extensive experience in developing web pages using HTML,CSS,JavaScript,ReactJs. Having bit experience in MERN stack development.
-                Similarly, have experience in working in Java ,Python. Experience in Version Control tools like GIT.
+                I'm an Computer Science Engineering Graduate from Dayton University.
+
+                I have completed my Bachelors in Computer Science Engineering from S.B.Jain , Nagpur.
+
+                <span              >I was a Analyst @ HCLTECH and a Software Egineering Intern @ Radicle.
+                </span>
+                <p>
+
+                    I have always been a creative person and you can see the creativity shine through my  handmade gifts!
+
+                </p>
+                <p>
+                    If I am not working you will find me cooking a new recipe or traveling to a new city.
+                </p>
+
+
+                <button className="resumeButton">
+                    <a href="https://drive.google.com/file/d/1egugJaqScKcqJ09lWtzT0M9zPQJvUT62/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                        Download Resume
+                    </a>
+                </button>
+
+
+
 
             </span>
 
@@ -60,7 +81,7 @@ const skills = () => {
 
             </div>
 
-        </section>
+        </section >
     );
 }
 
