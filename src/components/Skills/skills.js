@@ -17,7 +17,11 @@ const skills = () => {
             </span>
 
             <div className="skillBars">
-                <div className='skillBar'>
+
+
+
+
+                {/* <div className='skillBar'>
 
                     <div className="skillBarText">
                         <div className="infoContainer">
@@ -38,9 +42,9 @@ const skills = () => {
                         </div>
 
                     </div>
-                </div>
+                </div> */}
 
-                <div className="skillBar">
+                {/* <div className="skillBar">
 
                     <div className="skillBarText">
 
@@ -52,7 +56,7 @@ const skills = () => {
 
                     </div>
 
-                </div>
+                </div> */}
 
             </div>
 

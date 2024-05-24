@@ -15,10 +15,6 @@ const Contact = () => {
             <div id="contact">
                 <h1 className="contactPageTitle">Contact Me </h1>
 
-
-
-
-
                 <div className="links">
                     <a href="https://github.com/priyeahd?tab=repositories">
                         <img src={GitHub} alt="Github" className="link" />

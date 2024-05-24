@@ -1,7 +1,21 @@
+body {
+    background-color: #f0f0f0;
+    /* Light gray background for the body */
+    color: #000;
+    /* Default text color */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* Set a default font */
+}
+
+
 .navbar {
-    background: rgb(30, 30, 30);
+
+    background: rgb(241, 236, 236);
     height: 5rem;
-    width: 100vm;
+    width: 100vw;
+    /* Corrected from '100vm' to '100vw' */
     margin: 0 auto;
     max-width: 75rem;
     padding: 1rem 2rem;
@@ -14,10 +28,26 @@
 
 }
 
+
+.logoNameContainer {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
     object-fit: cover;
     height: 3rem;
-    width: 4rem;
+    width: 3rem;
+    /* Adjust the width to make the logo proportional */
+    margin-right: 1rem;
+    /* Space between logo and name */
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000;
+    /* Navy blue color */
 }
 
 .desktopMenuListItem {
@@ -27,15 +57,16 @@
 }
 
 .desktopMenuListItem:hover {
-    color: yellow;
+    color: rgb(17, 17, 12);
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid rgb(253, 253, 250);
 }
 
 
+
 .desktopMenuBtn {
-    background: black;
-    color: white;
+    background: rgb(236, 232, 232);
+    color: black;
     border: none;
     display: flex;
     align-items: center;
@@ -44,15 +75,10 @@
     border-radius: 2rem;
 }
 
-.desktopMenuImg {
-    object-fit: cover;
-    height: 1rem;
-    width: 1rem;
-    margin: 1rem;
-}
+
 
 .active {
-    color: yellow;
+    color: rgb(11, 11, 10);
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid rgb(202, 202, 195);
 }
