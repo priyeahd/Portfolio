@@ -1,6 +1,6 @@
 import React from 'react'
 import './navbar.css'
-import logo from '../../assets/logo111.jpg';
+// import logo from '../../assets/logo111.jpg';
 // import contactImg from '../../assets/logo11.jpg'
 import { Link } from 'react-scroll';
 // import menu from '../../'
