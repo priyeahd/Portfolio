@@ -27,7 +27,7 @@ const skills = () => {
 
 
                 <button className="resumeButton">
-                    <a href="https://drive.google.com/file/d/1egugJaqScKcqJ09lWtzT0M9zPQJvUT62/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1Gdni3WlddtqjPMwro-AMTz6ChqNmnsXs/view" target="_blank" rel="noopener noreferrer">
                         Download Resume
                     </a>
                 </button>
